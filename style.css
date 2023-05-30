@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: #33708f;
+    line-height: 1.4;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 800px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.col-1-2{
+    width: 50%;
+    padding: 0 15px;
+}
+
+#weather{
+    margin: 30vh auto;
+    text-align: center;
+    color: gainsboro;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    background-color: #0d374d;
+    padding: 45px 20px 40px 70px;
+    text-align: left;
+    border-radius: 25px 25px 0 0;
+}
+
+.bottom{
+    margin-top: 2px;
+    background-color: #0d374d;
+    display: flex;
+    text-align: left;
+    border-radius: 0 0 25px 25px;
+}
+
+.bottom .left,
+.bottom .right{
+    width: 50%;
+    padding: 30px 60px 10px;
+}
+
+.bottom .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+}
+.bottom .left p{
+    margin: 0;
+}
+p.maxtemp{
+    font-size: 20px;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+p.mintemp{
+    font-size: 20px;
+    margin: 0;
+}
+
+.bottom .right{
+    border-left: 2px solid #33708f;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.bottom .right p{
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.city{
+    font-size: 50px;
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+.day{
+    font-size: 40px;
+    margin: 0;
+}
+
+.date{
+    font-size: 23px;
+    margin: 0;
+}
+
+.time{
+    font-size: 23px;
+    margin: 0; 
+    transition: font 1s;
+} .time:hover {font-size: 35px;}
+
+.maxtemp {transition: font 1s;} .maxtemp:hover {font-size:30px;}
+.mintemp {transition: font 1s;} .mintemp:hover {font-size:30px;}
+.sunsettime {transition: font 1s;} .sunsettime:hover {font-size:30px;}
+.sunrisetime {transition: font 1s;} .sunrisetime:hover {font-size:30px;}
+.pressure {transition: font 1s;} .pressure:hover {font-size:30px;}
+.humidity {transition: font 1s;} .humidity:hover {font-size:30px;}
+.windspeed {transition: font 1s;} .windspeed:hover {font-size:30px;}
+
+.weatherstatus{
+    text-align: center;
+}
+
+img{
+    width: 70%;
+    display: block;
+    margin: 20px auto;
+}
+
+input{
+    max-width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #666;
+    color: gainsboro;
+    cursor: pointer;
+    transition: 0.2s ease all;
+}
+
+input:focus{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid mediumturquoise;
+}
