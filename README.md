@@ -3,5 +3,5 @@
 
 ## U prilogu screenshotovi aplikacije.
 
-![Alt text](../app-ss1.png)
-![Alt text](../app-ss2.png)
+![Screenshot aplikacije](../app-ss1.png)
+![Screenshot aplikacije - prikaz vremenskih prilika o unesenom gradu](../app-ss2.png)
