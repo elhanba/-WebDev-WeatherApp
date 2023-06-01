@@ -3,5 +3,5 @@
 
 ## U prilogu screenshotovi aplikacije.
 
-![Alt text](../Desktop/app-ss1.png)
-![Alt text](../Desktop/app-ss2.png)
+![Alt text](../app-ss1.png)
+![Alt text](../app-ss2.png)
